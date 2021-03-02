@@ -1,0 +1,23 @@
+{
+  "name": "mytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "thing.js",
+  "scripts": {
+    "build": "wam build ./src/thing.js ./dist/bundle.js",
+    "debug": "wot-servient --inspect-brk -f servient.config.json ./src/thing.js",
+    "start": "wot-servient -f servient.config.json ./dist/bundle.js"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "",
+  "license": "APACHE",
+  "devDependencies": {
+    "@node-wot/cli": "^0.7.5",
+    "@arces-wot/wam": "^0.5.2"
+  },
+  "dependencies": {
+    "@node-wot/core": "^0.7.5"
+  }
+}

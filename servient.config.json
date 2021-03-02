@@ -1,0 +1,6 @@
+{
+  "servient": {
+    "clientOnly": true,
+    "scriptAction": false
+  }
+}
